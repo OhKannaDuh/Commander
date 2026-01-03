@@ -1,6 +1,6 @@
 .vs/
-PluginTemplate/obj/
-PluginTemplate/bin/
+Commander/obj/
+Commander/bin/
 *.user
-PluginTemplate/.env
+Commander/.env
 node_modules/

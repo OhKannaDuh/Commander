@@ -9,13 +9,13 @@ using Ocelot;
 // using Ocelot.Rotation.Services;
 // using Ocelot.UI.Services;
 
-namespace PluginTemplate;
+namespace Commander;
 
 public sealed class Plugin(IDalamudPluginInterface plugin) : OcelotPlugin(plugin)
 {
     private readonly IDalamudPluginInterface plugin = plugin;
 
-    public override string Name { get; } = "PluginTemplate";
+    public override string Name { get; } = "Commander";
 
     protected override void Boostrap(IServiceCollection services)
     {
